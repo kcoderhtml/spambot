@@ -1,6 +1,8 @@
 # spambot: growing HC's largest thread
 
-![the thread](image.png)
+<p align="center">
+  <img src="image.png">
+</p>
 
 To install dependencies:
 
