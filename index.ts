@@ -12,7 +12,8 @@ const app = new App({
 async function sendMessageToThread(
   channel: string,
   threadTs: string,
-  message: string
+  message: string,
+  announce?: boolean
 ) {
   try {
     await app.client.chat.postMessage({
@@ -20,6 +21,7 @@ async function sendMessageToThread(
       channel: channel,
       thread_ts: threadTs,
       text: message,
+      reply_broadcast: announce,
     });
   } catch (error) {
     console.error("Error sending message:", error);
@@ -34,8 +36,21 @@ async function sendMessageToThread(
   // Define the loop to send messages continuously
   setInterval(async () => {
     if (messagesSent % 100 == 0) console.log("messages sent: ", messagesSent);
+
     const channel = "C06QV2T1P4G"; // Replace with your channel ID
     const threadTs = "1710818631.730789"; // Replace with your thread timestamp
+
+    if (messagesSent % 1000 == 0) {
+      // celebrate and send a message to the channel and thread with a annoucen proerty
+      const message =
+        "🎉 Celebrate! 🎉\nThis bot has sent: " +
+        (messagesSent + 1) +
+        " messages!";
+      await sendMessageToThread(channel, threadTs, message, true);
+      console.log(message);
+      messagesSent++;
+    }
+
     const message = "blaaaa";
 
     await sendMessageToThread(channel, threadTs, message);
