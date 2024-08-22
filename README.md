@@ -1,10 +1,10 @@
 # spambot: growing HC's largest thread
 
-<p align="center" style="display: flex; flex-direction: column; align-items: center;">
+<p align="center">
   <img src="image.png">
 </p>
 
-<em align="center">join the movement!!!!</em>
+<p align="center">*join the movement!!!!*</p>
 
 To install dependencies:
 
