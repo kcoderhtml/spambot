@@ -1,4 +1,6 @@
-# spambot
+# spambot: growing HC's largest thread
+
+![the thread](image.png)
 
 To install dependencies:
 
