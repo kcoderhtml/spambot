@@ -50,7 +50,7 @@ async function sendMessageToThread(
       messagesSent++;
     }
 
-    const message = "blaaaa: " + (messagesSent + 1);
+    const message = "UNSUBSCRIBE";
 
     await sendMessageToThread(channel, threadTs, message);
     messagesSent++;
