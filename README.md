@@ -12,7 +12,7 @@ To run:
 bun run index.ts
 ```
 
-You will need to make a slack app at with the below app manifest
+You will need to make a slack app at [api.slack.com](https://api.slack.com/apps) with the below app manifest
 ```yaml
 display_information:
   name: The super spammer
