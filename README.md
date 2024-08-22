@@ -1,10 +1,10 @@
 # spambot: growing HC's largest thread
 
-<p align="center">
-  <img src="image.png">
-</p>
+<figure align="center">
+  <img src="image.png" alt="Join the movement!">
+  <figcaption><em>join the movement!!!!</em></figcaption>
+</figure>
 
-<p align="center">*join the movement!!!!*</p>
 
 To install dependencies:
 
