@@ -1,7 +1,7 @@
 # spambot: growing HC's largest thread
 
 <p align="center">
-  <img src="https://github.com/kcoderhtml/spambot/raw/main/image.png" alt="Join the movement!">
+  <img src="https://github.com/kcoderhtml/spambot/raw/main/image.png" alt="">
 </p>
 
 <p align="center"><em>join the movement!!!!</em></p>
