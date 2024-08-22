@@ -46,7 +46,6 @@ async function sendMessageToThread(
         "🎉 Celebrate! 🎉\nThis bot has sent: " +
         (messagesSent + 1) +
         " messages!";
-      await sendMessageToThread(channel, threadTs, message, true);
       console.log(message);
       messagesSent++;
     }
