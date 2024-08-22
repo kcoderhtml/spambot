@@ -2,8 +2,9 @@
 
 <p align="center" style="display: flex; flex-direction: column; align-items: center;">
   <img src="image.png">
-  <em>join the movement!!!!</em>
 </p>
+
+<em align="center">join the movement!!!!</em>
 
 To install dependencies:
 
