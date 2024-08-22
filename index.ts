@@ -40,7 +40,7 @@ async function sendMessageToThread(
     const channel = "C06QV2T1P4G"; // Replace with your channel ID
     const threadTs = "1710818631.730789"; // Replace with your thread timestamp
 
-    if (messagesSent % 1000 == 0) {
+    if (messagesSent % 1000 == 0 && messagesSent > 0) {
       // celebrate and send a message to the channel and thread with a annoucen proerty
       const message =
         "🎉 Celebrate! 🎉\nThis bot has sent: " +
@@ -51,7 +51,7 @@ async function sendMessageToThread(
       messagesSent++;
     }
 
-    const message = "blaaaa";
+    const message = "blaaaa: " + (messagesSent + 1);
 
     await sendMessageToThread(channel, threadTs, message);
     messagesSent++;
