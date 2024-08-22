@@ -1,5 +1,7 @@
 # spambot: growing HC's largest thread
 
+*join the movement!!!!*
+
 <p align="center">
   <img src="image.png">
 </p>
