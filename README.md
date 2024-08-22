@@ -1,8 +1,8 @@
 # spambot: growing HC's largest thread
 
-<p align="center">
+<p align="center" style="display: flex; flex-direction: column; align-items: center;">
   <img src="image.png">
-  *join the movement!!!!*
+  <em>join the movement!!!!</em>
 </p>
 
 To install dependencies:
